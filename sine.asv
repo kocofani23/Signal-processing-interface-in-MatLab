@@ -1,0 +1,7 @@
+function [y] = sine(A, f, theta) 
+
+t = 0:0.1:100;
+y = A * sin(2*pi*f*t + theta);
+end
+
+
